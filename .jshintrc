@@ -1,0 +1,28 @@
+{
+  "asi": true,
+  "bitwise": true,
+  "laxcomma": true,
+  "camelcase": true,
+  "curly": true,
+  "eqeqeq": true,
+  "forin": true,
+  "immed": true,
+  "latedef": true,
+  "newcap": true,
+  "noarg": true,
+  "nonew": false,
+  "node": true,
+  "quotmark": "single",
+  "undef": true,
+  "unused": true,
+  "devel": true,
+  "trailing": true,
+  "browser": true,
+  "sub": true,
+  "debug": true,
+  "globals": {
+    "Phaser": false,
+    "module": false,
+    "require": false
+  }
+}

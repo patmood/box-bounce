@@ -1,0 +1,33 @@
+{
+  "name": "box-bounce",
+  "description": "",
+  "readme": "",
+  "repository": "",
+  "version": "0.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "bower": "*",
+    "gulp": "*",
+    "gulp-browserify": "^0.5.0",
+    "gulp-clean": "*",
+    "gulp-concat": "*",
+    "gulp-connect": "*",
+    "gulp-download": "*",
+    "gulp-jshint": "*",
+    "gulp-minify-css": "*",
+    "gulp-minify-html": "*",
+    "gulp-processhtml": "*",
+    "gulp-rename": "*",
+    "gulp-uglify": "*",
+    "gulp-util": "*",
+    "gulp-watch": "*",
+    "gulp-zip": "^2.0.2",
+    "tiny-lr": "*"
+  },
+  "scripts": {
+    "post-install": "node ./node_modules/bower/bin/bower install",
+    "start": "node ./node_modules/gulp/bin/gulp.js",
+    "build": "node ./node_modules/gulp/bin/gulp.js build",
+    "lint": "node ./node_modules/gulp/bin/gulp.js lint"
+  }
+}
